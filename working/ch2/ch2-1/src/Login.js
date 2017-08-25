@@ -48,7 +48,12 @@ export default class Login extends Component {
       console.log('Clicked button!!!');
   }
 
-
+  /*
+  *
+  *   nb: when const { blah... } = styles is used
+  *   <View style={styles.container}> is reduced to <View style={container}>
+  *   NB: need to load all the styles required o/wise wont work.
+  */
   render() {
     const { form, fieldStyles, loginButtonArea, errorMessage, welcome, container } = styles;
 
