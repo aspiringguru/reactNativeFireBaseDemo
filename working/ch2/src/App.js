@@ -46,6 +46,7 @@ export default class App extends Component {
         <Text style={styles.welcome}>
         444
         </Text>
+        <Login />
       </View>
     );
   }
