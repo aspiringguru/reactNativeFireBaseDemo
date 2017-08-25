@@ -1,0 +1,10 @@
+npm install --save react-native-material-kit
+npm install --save react-native-vector-icons
+npm install --save firebase
+
+
+to reset app.
+1. restart server - close the node window and cnrl-c to stop instance.
+ie:  react-native run-android
+
+2. delete node_modules directory & restart server.
