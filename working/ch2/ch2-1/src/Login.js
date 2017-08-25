@@ -58,8 +58,8 @@ export default class Login extends Component {
     const { form, fieldStyles, loginButtonArea, errorMessage, welcome, container } = styles;
 
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
+      <View style={container}>
+        <Text style={welcome}>
             Welcome to the CRM!!!!!
         </Text>
         <MKTextField
